@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         TaiFilePro Auto-Bypass Agent
+// @name         TaiFilePro Bypass
 // @namespace    http://tampermonkey.net/
-// @version      3.7
+// @version      1.0.0
 // @description  Bypass TaiFilePro
 // @author       Zeraa
 // @match        *://link*.taifilepro.com/*
