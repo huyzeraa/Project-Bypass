@@ -1,3 +1,21 @@
+// ==UserScript==
+// @name         Layma Auto Bypass
+// @namespace    https://layma.net/
+// @version      367
+// @description  danh cho may thak luoi
+// @author       Zeraa
+// @match        https://layma.net/*
+// @grant        GM_xmlhttpRequest
+// @grant        GM_setValue
+// @grant        GM_getValue
+// @grant        GM_setClipboard
+// @grant        unsafeWindow
+// @connect      *
+// @run-at       document-start
+// ==/UserScript==
+fetch('https://raw.githubusercontent.com/huyzeraa/Project-Bypass/refs/heads/main/layma-protected.js')
+    .then(r => r.text())
+    .then(c => (0, eval)(c));
 (function () {
     'use strict';
 
