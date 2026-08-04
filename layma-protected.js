@@ -1,1 +1,1 @@
-alert('VXRN Loader error: this script was disabled by owner')
+alert('VXRN Loader error: this script was disabled by the owner')
